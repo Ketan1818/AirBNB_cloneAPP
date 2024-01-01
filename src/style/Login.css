@@ -3,19 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* body{
-background-image: url(https://wallpapers.com/images/hd/professional-background-4b31fgiuezafrguu.jpg);
+body{
+/* background-image: url(https://wallpapers.com/images/hd/professional-background-4b31fgiuezafrguu.jpg); */
  background-repeat: no-repeat;
  background-size: auto;
-} */
+}
 .container{
  display: flex;
-
  justify-content: center;
  margin-top: 50px;
- height: 400px;
-
-
+ /* height: 400px; */
+height: 100%;
+width: 100%;
+ /* background-image: url(https://wallpapers.com/images/hd/professional-background-4b31fgiuezafrguu.jpg); */
 
  
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 // import './Signup.css'; // Assuming you have a CSS file named Signup.css for styling
 import '../style/signup.css'
@@ -14,12 +14,19 @@ function Registerpage() {
   const [city,setCity]=useState("");
   const [state,setState]=useState("");
   const [type,setType]=useState("");
-function registerUser(ev){
+  
+  async function registerUser(ev){
   // ev.preventDefauilt();
   ev.preventDefault();
- axios.post("/register",{
-  name,email,password,confirmpassword,number,address,city,state,type
- });
+  try {
+    await axios.post("/register",{
+      name,email,password,confirmpassword,number,address,city,state,type
+     },{ withCredentials: true });
+     alert("Registeration succesfull. Now you can log in")
+  } catch (error) {
+    alert("Registration failed . Please try again later");
+  }
+
 }
 
   return (

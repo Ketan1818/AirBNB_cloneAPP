@@ -1,0 +1,28 @@
+/* booking.css */
+
+.booking-details-container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+  }
+  .IMGS{
+    width: 500PX;
+    height: 300PX;
+  }
+  /* Add more styles as needed */
+  .reserve{
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(211,63,143);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  

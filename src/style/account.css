@@ -1,0 +1,83 @@
+.acc{
+    padding: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color:  rgb(255,90,95); /* Use your actual primary color */
+    /* You can also replace `var(--primary-color)` with your specific color value */
+    color: white;
+    border-radius: 9999px;
+    text-decoration: none;
+ 
+}
+.acc-main{
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-top: 0.5rem; 
+    gap: 30px;
+}
+
+.link {
+    padding-top: 0.5rem; /* Equivalent to py-2 */
+    padding-bottom: 0.5rem; /* Equivalent to py-2 */
+    padding-left: 1.5rem; /* Equivalent to px-6 */
+    padding-right: 1.5rem; /* Equivalent to px-6 */
+  }
+  
+  .link.subpage,
+.link[type='profile'] {
+ /* Replace with your primary color */
+ background-color:  rgb(255,90,95);
+  color: #fff; /* White text color */
+  text-decoration: none;
+  border-radius: 9999px; /* Maximum value for rounded corners to create a circle */
+}
+.logout{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.log-btn{
+    padding: 25px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color:  rgb(55, 58, 40); /* Use your actual primary color */
+    /* You can also replace `var(--primary-color)` with your specific color value */
+    color: white;
+    border-radius: 9999px;
+    text-decoration: none;
+     width: 300px;
+     border: none;
+     /* margin-right: 800px; */
+     margin-top: 100px;
+}
+.account-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .nav-link {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .logname{
+    margin-top: 30px;
+    margin-left: 300px;
+  }
